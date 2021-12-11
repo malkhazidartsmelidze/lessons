@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    height: 55px;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+img {
+    height: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-right: 50px;
+    border-radius:50%;
+}
+
+.navigation {
+    flex-grow: 1;
+}
+
+.logout {
+    margin-right: 10px;
+}
+
+.nav-button {
+    height: 30px;
+    background-color: burlywood;
+    padding: 5px 15px;
+    border-radius: 10px;
+    text-decoration: unset;
+    color: white;
+}

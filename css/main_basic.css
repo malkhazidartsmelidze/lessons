@@ -1,0 +1,41 @@
+.didi {
+    font-size: 50px !important;
+  }
+
+  .patara {
+    font-size: 100px;
+  }
+
+  #satauri {
+    color: burlywood;
+  }
+  
+  .lurji {
+    color: rgba(118, 126, 14, 0.972);
+  }
+  
+  h1 {
+    color: green;
+    font-size: 16px;
+  }
+
+  h1 {
+    color: red;
+  }
+
+
+  body {
+    color: green;
+  }
+
+  h3 {
+    color: black;
+  }
+  
+  h6 {
+    color: purple;
+  }
+  
+  span {
+    color: red;
+  }
