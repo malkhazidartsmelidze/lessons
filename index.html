@@ -1,17 +1,18 @@
 <html>
     <head>
         <title>Dato's Site</title>
+        <meta charset="utf-8" />
         <link rel="stylesheet" href="/css/main.css" />
     </head>
 
     <body>
 
-        <div class="menu">
+        <nav class="flex menu">
             <div class="logo">
-                <img src="/img/logo.png" />
+                <img src="/img/logo.png" class="round" />
             </div>
-
-            <div class="navigation">
+            
+            <div class="flex navigation">
                 <a class="nav-button" href="/index.html">Home</a>
                 <a class="nav-button" href="/about.html">About</a>
                 <a class="nav-button" href="/contact.html">Contact</a>
@@ -20,8 +21,72 @@
             <div class="logout">
                 <a class="nav-button" href="#">Logout</a>
             </div>
-        </div>
+        </nav>
 
-        Index File
+        <div class="flex content">
+          <div class="left">
+            <a color href="#">Home</a>
+            <a href="#" class="red">Test 2</a>
+            <a href="#">Test 1</a>
+            <a href="#">Test 2</a>
+            <a href="#">Test 1</a>
+            <a href="#">Test 2</a>
+          </div>
+          <div class="right">
+            <table class="bovsebi">
+              <colgroup>
+                <col span="3" style="background-color: #D6EEEE"></col>
+              </colgroup>
+              <thead>
+                <th>სახელი</th>
+                <th>ასაკი</th>
+                <th>დაბ.თარიღი</th>
+              </thead>
+              <tr >
+                <td>dato</td>
+                <td rowspan="2">25</td>
+                <td rowspan="2">1996</td>
+              </tr>
+              <tr>
+                <td>tamo</td>
+              </tr>
+              <tr>
+                <td>maxo</td>
+                <td colspan="2">24</td>
+                <td></td>
+              </tr>
+              <tfoot>
+                <th></th>
+                <th>49</th>
+                <th></th>
+              </tfoot>
+            </table>
+              <h1>this</h1>
+            <ul>
+              <li>test 1</li>
+              <li>test 2</li>
+              <li>test 3</li>
+            </ul>
+
+            <ol>
+              <li>test 1</li>
+              <li>test 2</li>
+              <li>test 3</li>
+            </ol>
+            
+          <code>
+
+            alert(1);
+            coonsole.log(1)
+          </code>
+
+          </div>
+
+          
+        </div>
+        <div class="flex footer">
+          <div class="left"></div>
+          <div class="right"></div>
+        </div>
     </body>
 </html>
